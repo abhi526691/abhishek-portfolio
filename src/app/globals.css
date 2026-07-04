@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-inter), sans-serif;
+}
+
+::selection {
+  background: #9c4a35;
+  color: #f6f3ec;
+}
